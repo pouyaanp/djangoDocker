@@ -10,7 +10,7 @@ services:
       - '8000'
     volumes:
       - type: 'bind'
-        source: './volumes/site'
+        source: './volumes/app'
         target: '/app'
           
   nginx:
